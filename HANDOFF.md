@@ -1,0 +1,77 @@
+# NAVIR handoff
+
+Last updated: 2026-09-21
+
+Original Codex task: `01a08935-6e79-72f3-a03e-ed9da387fe33`
+
+Repository: `https://github.com/rangao63/navir-portfolio` (private)
+
+Repository status: local Git repository initialized on `main`; first push is in progress.
+
+## Fixed brief
+
+- Fictional high-speed hairdryer / Beauty Tech portfolio brand.
+- Brand: `NAVIR`
+- Core concept: `FLOW`
+- Slogan: `Shape the Air.`
+- Visual direction: approximately 70% `AIR SCULPT` + 30% `FLOW EDITORIAL`.
+- Palette: warm white `#F4F2EF`, silver `#C8C8C4`, graphite `#202020`, pale grey `#DCDAD5`, burgundy `#6B1F32`.
+- This is a portfolio narrative and visual-system project. Do not add cart, account, order, payment, or backend scope.
+
+## Current state
+
+- Brand direction is fixed; do not restart naming or concept exploration.
+- Grey-white PC page structural variants exist, but the final choice among the alternatives is still unconfirmed.
+- Recent Illustrator helper scripts were modified on 2026-09-21. Their visual result still needs to be judged in the intended Adobe workflow before being treated as accepted.
+
+## Key editable sources
+
+- `navir-visual-philosophy.md`
+- `navir-visual-philosophy-v2.md`
+- `navir-color-philosophy.md`
+- `navir-pc-template-philosophy.md`
+- `work/render_color_directions.py`
+- `work/render_navir_v1.py`
+- `work/render_navir_v2.py`
+- `work/render_pc_detail_template.py`
+- `build_navir_visual_sample_v01.jsx`
+- `audit_navir_visual_sample_v01.jsx`
+- `create_navir_3q_cutout.jsx`
+- `create_navir_3q_polygon_cutout.jsx`
+- `create_navir_3q_screen_asset.jsx`
+- `assets/fonts/` contains the exact OFL-licensed fonts used by the Python renderers, so renders do not depend on a machine-specific Codex skill path.
+
+## Reviewable outputs
+
+- `deliverables/NAVIR_Brand_Board_1.0.png`
+- `deliverables/NAVIR_Brand_Board_1.1_ColorField.png`
+- `deliverables/NAVIR_BrandBoard_KV01_v1.pdf`
+- `deliverables/NAVIR_Color_Directions_01.png`
+- `deliverables/NAVIR_KV01_SHAPE_THE_AIR_v1.png`
+- `deliverables/NAVIR_KV01_SHAPE_THE_AIR_v2_ColorField.png`
+- `deliverables/NAVIR_PC_Detail_Template_BW_v1.png`
+- `deliverables/NAVIR_PC_Template_GreyWhite_A_Airy.png`
+- `deliverables/NAVIR_PC_Template_GreyWhite_B_Reverse.png`
+- `deliverables/NAVIR_PC_Template_GreyWhite_C_Technical.png`
+
+## Next decision
+
+1. Review the A/B/C grey-white page structures at full size.
+2. Confirm one structure or define an exact hybrid before further production.
+3. Validate the latest Illustrator-generated sample visually; script execution alone is not approval.
+4. Update this file with the selected master and any new accepted deliverable.
+
+## Migration validation
+
+- Python renderers now resolve the repository root from their own file location instead of `D:\codex用\NAVIR`.
+- Required Instrument Sans and DM Mono font files plus their OFL licenses are stored in `assets/fonts/`.
+- All four Python renderers executed successfully after the portability change.
+- Every PNG renderer output remained byte-identical.
+- The PDF generator now uses deterministic metadata; two consecutive renders produced the same SHA-256.
+
+## Cross-computer routine
+
+1. Start: `git pull --ff-only`, then `git status`.
+2. Work on only one computer at a time.
+3. End: update this file, commit all intended changes, and push.
+4. Only start on the other computer after the push succeeds.
