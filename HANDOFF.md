@@ -10,17 +10,20 @@ Repository status: `main` is connected to `origin/main`; the initial portable pr
 
 ## Fixed brief
 
+- For a concise explanation of the active design, editable PSD requirement, file map, and conflicting historical tracks, read `PROJECT_BRIEF.md` first.
+
 - Fictional high-speed hairdryer / Beauty Tech portfolio brand.
 - Brand: `NAVIR`
 - Core concept: `FLOW`
 - Slogan: `Shape the Air.`
 - Visual direction: approximately 70% `AIR SCULPT` + 30% `FLOW EDITORIAL`.
-- Palette: warm white `#F4F2EF`, silver `#C8C8C4`, graphite `#202020`, pale grey `#DCDAD5`, burgundy `#6B1F32`.
+- Earlier brand/KV palette: warm white `#F4F2EF`, silver `#C8C8C4`, graphite `#202020`, pale grey `#DCDAD5`, burgundy `#6B1F32`. The active NAVIR S1 vertical A+ visual samples instead use blue/deep navy/cool white; keep these tracks distinct.
 - This is a portfolio narrative and visual-system project. Do not add cart, account, order, payment, or backend scope.
 
 ## Current state
 
 - Brand direction is fixed; do not restart naming or concept exploration.
+- The active vertical seven-screen NAVIR S1 page has an editable v04 block layout and editable A01/A02 Photoshop visual samples in `portfolio/Amazon_APlus/`. A03-A07 completed visual pages are not confirmed in this repository. The user explicitly needs editable native sources, not only PNGs or scripts.
 - The user selected `deliverables/NAVIR_PC_Template_GreyWhite_A_Airy.png` as the PC page structural baseline on 2026-09-22. This selects the layout direction, not a finished branded design.
 - The user recalls receiving finished first and last NAVIR pages on the company computer. Their exact final files and approval status need to be reconciled with this clone before further page production.
 - Recent Illustrator helper scripts were modified on 2026-09-21. Their visual result still needs to be judged in the intended Adobe workflow before being treated as accepted.
@@ -57,10 +60,10 @@ Repository status: `main` is connected to `origin/main`; the initial portable pr
 
 ## Next action
 
-1. Identify the finished first and last pages the user recalls, and compare them with the repository's A01/A07 QA screenshots.
-2. If the finished exports or editable sources are only on the company computer, transfer them into the repository through a normal commit and push without overwriting existing files.
-3. Then refine structure A in a new versioned output, preserving the current A/B/C exports and the recovered pages.
-4. Validate the latest Illustrator-generated sample visually in Adobe; script execution alone is not approval.
+1. On the home computer, pull the new commit and read `PROJECT_BRIEF.md`; show the user actual previews, not only filenames.
+2. Identify the finished first and last pages the user recalls, especially any A07 final, and compare them with the recovered PSDs/PNGs and repository QA screenshots. Do not declare A07 complete from a wireframe or QA image.
+3. Confirm whether the next requested production is the vertical seven-screen series or the separate PC A structure. For either, deliver a native editable source plus preview; do not silently change the established visuals.
+4. Validate any new Adobe-generated sample visually in Adobe; script execution alone is not approval.
 
 ## Home review: 2026-09-22
 
