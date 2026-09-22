@@ -1,6 +1,6 @@
 # NAVIR handoff
 
-Last updated: 2026-09-22
+Last updated: 2026-09-23
 
 Original Codex task: `01a08935-6e79-72f3-a03e-ed9da387fe33`
 
@@ -75,8 +75,16 @@ Repository status: `main` is connected to `origin/main`; the initial portable pr
 
 - The user's company-computer recollection establishes that the first and last pages may already be finished; do not recreate or dismiss them based only on the grey-white structure options.
 - This clone tracks `tmp/block_v04_A01_qa2.png` and `tmp/block_v03_A07_qa.png`, among earlier A01/A07 QA screenshots. No A01/A07 final PNG or PSD was found in the tracked repository files.
-- `build_navir_visual_sample_v01.jsx` and `audit_navir_visual_sample_v01.jsx` reference a company-computer path and Photoshop PSD files that are absent from this clone. The scripts and QA screenshots are evidence, but do not establish which files were handed to the user as final.
+- At the time of this home review, `build_navir_visual_sample_v01.jsx` and `audit_navir_visual_sample_v01.jsx` referenced a company-computer path and Photoshop PSD files absent from that clone. The scripts and QA screenshots did not establish which files were handed to the user as final; see the recovery entry below.
 - Changed file: `HANDOFF.md` only. No design files were altered and no site was published.
+
+## Company file recovery: 2026-09-23
+
+- Recovered the complete 44-file NAVIR A+ portfolio folder from the company desktop into `portfolio/Amazon_APlus/`, preserving its original subfolders (`Assets`, `Copy`, `Exports`, `Layout_Approval`, `Preview`, `Review_v01`, `Source`, and `Visual_Sample_v01`).
+- This includes editable A01/A02 PSDs in `Visual_Sample_v01/`, earlier A+ PSDs in `Source/`, and four versioned vertical block-layout PSDs in `Layout_Approval/`. Source and repository copies matched by SHA-256 for all 44 files.
+- These recovered files were missing from the earlier GitHub snapshot. The original desktop folder was retained as a safety copy; use the GitHub repository as the cross-computer source of truth after the push is verified.
+- The recovered folder contains A01/A02 visual samples and A01/A02 A+ exports, plus vertical layout versions. It does not by itself prove which file, if any, was approved as the final A07 page. Ask the user to identify the specific final A07 if needed; do not recreate it silently.
+- Next on the home computer: `git pull --ff-only` in this repository, then inspect `portfolio/Amazon_APlus/` before further design work.
 
 ## Migration validation
 
