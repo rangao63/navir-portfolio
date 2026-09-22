@@ -97,6 +97,15 @@ Repository status: `main` is connected to `origin/main`; the initial portable pr
 - Validation: opened the saved PNG, checked the two product zones and Chinese copy visually, verified its portrait aspect ratio matches the original approximately, and kept it under a new versioned path. A02 and the unconfirmed A07 were not changed.
 - Exact next action: get the user's visual feedback on v02; if selected, rebuild or refine the layout in a full-size editable source and verify text, product silhouette, crop, and export at the intended format before acceptance.
 
+## A01 front-facing v04 review sample: 2026-09-23
+
+- User-approved direction for this iteration: NAVIR S1 outlet faces the viewer as a near circle; the earlier stronger three-quarter/low-angle candidate was rejected. Keep two buttons, full handle, short cable fading downward, blue airflow behind the product, a restrained precision turbine, centered Chinese title with a white/blue S1 plate, titanium CTA, and a Chinese channel strip including NAVIR 官网, Amazon, and MediaMarkt.
+- New review files: `portfolio/Amazon_APlus/Visual_Sample_v04/NAVIR_S1_A01_Hero_CN_v04_preview.png` and `NAVIR_S1_A01_Hero_CN_v04.psd`, both 1464 × 3416 px. The product source and independently rendered background, airflow, turbine, UI, and text-reference layers are in `Visual_Sample_v04/Assets/`. Source builders are `work/build_navir_a01_v04_assets.py`, `work/build_navir_a01_v04_psd.py`, and an unexecuted Photoshop JSX option `work/build_navir_a01_v04.jsx`.
+- PSD inspection with `psd-tools`: seven groups, 11 native type layers, one replaceable embedded product smart object. Its visible composite matched the PNG preview pixel for pixel. The editable type group is initially hidden behind a visible raster text reference to keep the review composite stable; hide the reference and show the type group when editing text.
+- Photoshop 2023 was found and launched on the home computer, but Adobe displayed an unlicensed-app notice. Native Photoshop open/edit/export validation could not be completed. `psd-tools` also logged engine-data parsing warnings for the type layers, so actual Chinese text rendering and editing in Photoshop remain **unverified**. Do not mark this v04 sample as a final accepted PSD until it has been opened and checked in a licensed Photoshop session.
+- A01 v01/v02 and A02 remain unchanged; A03-A07 were not worked on. The earlier untracked v03 exploratory files on this computer remain local and are not the selected v04 direction. No website was published.
+- Exact next action: ask the user to review the v04 PNG composition. On a licensed Photoshop instance, open the v04 PSD, verify product smart-object replacement and every Chinese text layer, repair native type if needed, re-export the PNG, then seek visual acceptance before promoting A01 to final.
+
 ## Migration validation
 
 - Python renderers now resolve the repository root from their own file location instead of `D:\codex用\NAVIR`.
