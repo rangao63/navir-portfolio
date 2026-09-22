@@ -89,6 +89,14 @@ Repository status: `main` is connected to `origin/main`; the initial portable pr
 - The recovered folder contains A01/A02 visual samples and A01/A02 A+ exports, plus vertical layout versions. It does not by itself prove which file, if any, was approved as the final A07 page. Ask the user to identify the specific final A07 if needed; do not recreate it silently.
 - Next on the home computer: `git pull --ff-only` in this repository, then inspect `portfolio/Amazon_APlus/` before further design work.
 
+## A01 Chinese composition preview: 2026-09-23
+
+- At the user's request, used `portfolio/Amazon_APlus/Visual_Sample_v01/NAVIR_S1_A01_Hero_CN_v01.png` as the edit target and a user-provided annotated vacuum-page screenshot only as a layout reference. Its annotations, vacuum imagery, English promotion, and email signup were not copied.
+- New review option: `portfolio/Amazon_APlus/Visual_Sample_v02/NAVIR_S1_A01_Hero_CN_v02_preview.png`. It stacks an outlet/airflow detail above the full NAVIR S1 product, then places Chinese product name, selling points, and a search-style call to action below. Copy: “NAVIR S1 高速吹风机”, “让气流塑形。”, “定向气流 · 温和控温 · 轻盈握持”, “探索 NAVIR S1”, and “了解更多”. No numerical performance claims appear in this version.
+- The built-in image-generation edit produced a flattened raster preview at 821 × 1916 px. The original A01 PNG and editable PSD remain unchanged; this preview is not a production-size layered PSD or an accepted final master. The A+ sample's blue/navy visual language was retained for continuity; this does not revise the separate overall NAVIR brand brief.
+- Validation: opened the saved PNG, checked the two product zones and Chinese copy visually, verified its portrait aspect ratio matches the original approximately, and kept it under a new versioned path. A02 and the unconfirmed A07 were not changed.
+- Exact next action: get the user's visual feedback on v02; if selected, rebuild or refine the layout in a full-size editable source and verify text, product silhouette, crop, and export at the intended format before acceptance.
+
 ## Migration validation
 
 - Python renderers now resolve the repository root from their own file location instead of `D:\codex用\NAVIR`.
