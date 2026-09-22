@@ -106,6 +106,14 @@ Repository status: `main` is connected to `origin/main`; the initial portable pr
 - A01 v01/v02 and A02 remain unchanged; A03-A07 were not worked on. The earlier untracked v03 exploratory files on this computer remain local and are not the selected v04 direction. No website was published.
 - Exact next action: ask the user to review the v04 PNG composition. On a licensed Photoshop instance, open the v04 PSD, verify product smart-object replacement and every Chinese text layer, repair native type if needed, re-export the PNG, then seek visual acceptance before promoting A01 to final.
 
+## A01 airflow revision v05: 2026-09-23
+
+- The user rejected v04's thin straight radial rays as visually perfunctory and requested a redo. The front-facing product, Chinese copy, titanium CTA, and channel strip remain the selected layout; v05 specifically reworks the effect and rotor treatment.
+- New image-generation background plate: `portfolio/Amazon_APlus/Visual_Sample_v05/Assets/NAVIR_S1_Sculpted_Blue_Airflow_v05.png`. Prompt direction: background-only deep-navy, cobalt volumetric streams with varied-width curved ribbons, mist, thin luminous edges, dark center for the product, and no rays, product, text, or UI. The plate was faded into the lower navy field behind the product and paired with a separate soft outlet halo. An independent darker machined rotor layer replaces the flatter v04 fan treatment.
+- New review outputs: `portfolio/Amazon_APlus/Visual_Sample_v05/NAVIR_S1_A01_Hero_CN_v05_preview.png` and `NAVIR_S1_A01_Hero_CN_v05.psd` at 1464 × 3416 px. Builders: `work/build_navir_a01_v05_assets.py` and `work/build_navir_a01_v05_psd.py`. v04 remains intact for comparison.
+- Validation with `psd-tools`: eight groups, 11 native type layers, one embedded replaceable product smart object, and a pixel-identical visible PSD composite versus the v05 PNG. The editable type group remains hidden behind the visible text-render reference. Photoshop-native Chinese text editing/export still requires verification on a licensed Photoshop installation; the home installation displayed an unlicensed-app notice earlier in this session. v05 is a review sample, not an approved final master.
+- Exact next action: show the user the v05 preview and gather specific visual feedback. If accepted visually, verify and, if necessary, repair all native Chinese type in licensed Photoshop before treating the PSD as production-ready. A02-A07 remain untouched.
+
 ## Migration validation
 
 - Python renderers now resolve the repository root from their own file location instead of `D:\codex用\NAVIR`.
