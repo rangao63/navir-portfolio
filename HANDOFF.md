@@ -1,6 +1,6 @@
 # NAVIR handoff
 
-Last updated: 2026-09-21
+Last updated: 2026-09-22
 
 Original Codex task: `01a08935-6e79-72f3-a03e-ed9da387fe33`
 
@@ -60,6 +60,15 @@ Repository status: `main` is connected to `origin/main`; the initial portable pr
 2. Confirm one structure or define an exact hybrid before further production.
 3. Validate the latest Illustrator-generated sample visually; script execution alone is not approval.
 4. Update this file with the selected master and any new accepted deliverable.
+
+## Home review: 2026-09-22
+
+- Pulled `main` with `git pull --ff-only`; it was already current and the working tree was clean.
+- Reviewed the three full-size grey-white PC structure PNGs in `deliverables/`. A and C use the same section geometry; C uses a darker grey hierarchy. B reverses the main left/right composition. These remain unapproved structural options, not a final branded page.
+- Recommendation for the next discussion: A is the clearest starting structure for the restrained, airy direction. Await the user's explicit choice of A, B, C, or a specified hybrid before promoting any option.
+- Inspected the repository's `tmp/block_v04_A01_qa2.png` and `tmp/block_v03_A07_qa.png` as QA evidence only. Their placeholder product shapes and blue fields do not establish approval against the fixed NAVIR palette. The latest Illustrator workflow has not been run or verified on this computer.
+- Changed file: `HANDOFF.md` only. No design or website files were edited and no site was published.
+- Exact next action: record the user's structure choice, then refine that choice in a new versioned output and visually validate it. Independently validate the latest Illustrator-generated sample in Adobe before acceptance.
 
 ## Migration validation
 
