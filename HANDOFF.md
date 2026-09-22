@@ -21,7 +21,7 @@ Repository status: `main` is connected to `origin/main`; the initial portable pr
 ## Current state
 
 - Brand direction is fixed; do not restart naming or concept exploration.
-- Grey-white PC page structural variants exist, but the final choice among the alternatives is still unconfirmed.
+- The user selected `deliverables/NAVIR_PC_Template_GreyWhite_A_Airy.png` as the PC page structural baseline on 2026-09-22. This selects the layout direction, not a finished branded design.
 - Recent Illustrator helper scripts were modified on 2026-09-21. Their visual result still needs to be judged in the intended Adobe workflow before being treated as accepted.
 
 ## Key editable sources
@@ -54,21 +54,20 @@ Repository status: `main` is connected to `origin/main`; the initial portable pr
 - `deliverables/NAVIR_PC_Template_GreyWhite_B_Reverse.png`
 - `deliverables/NAVIR_PC_Template_GreyWhite_C_Technical.png`
 
-## Next decision
+## Next action
 
-1. Review the A/B/C grey-white page structures at full size.
-2. Confirm one structure or define an exact hybrid before further production.
-3. Validate the latest Illustrator-generated sample visually; script execution alone is not approval.
-4. Update this file with the selected master and any new accepted deliverable.
+1. Refine structure A in a new versioned output, preserving the current A/B/C exports.
+2. Review the refinement at full size before treating it as an accepted branded page.
+3. Validate the latest Illustrator-generated sample visually in Adobe; script execution alone is not approval.
 
 ## Home review: 2026-09-22
 
 - Pulled `main` with `git pull --ff-only`; it was already current and the working tree was clean.
 - Reviewed the three full-size grey-white PC structure PNGs in `deliverables/`. A and C use the same section geometry; C uses a darker grey hierarchy. B reverses the main left/right composition. These remain unapproved structural options, not a final branded page.
-- Recommendation for the next discussion: A is the clearest starting structure for the restrained, airy direction. Await the user's explicit choice of A, B, C, or a specified hybrid before promoting any option.
+- The user subsequently chose A as the starting structure. B and C remain comparison options; no branded page has been approved.
 - Inspected the repository's `tmp/block_v04_A01_qa2.png` and `tmp/block_v03_A07_qa.png` as QA evidence only. Their placeholder product shapes and blue fields do not establish approval against the fixed NAVIR palette. The latest Illustrator workflow has not been run or verified on this computer.
 - Changed file: `HANDOFF.md` only. No design or website files were edited and no site was published.
-- Exact next action: record the user's structure choice, then refine that choice in a new versioned output and visually validate it. Independently validate the latest Illustrator-generated sample in Adobe before acceptance.
+- Exact next action: refine the selected A structure in a new versioned output and visually validate it. Independently validate the latest Illustrator-generated sample in Adobe before acceptance.
 
 ## Migration validation
 
