@@ -22,6 +22,7 @@ Repository status: `main` is connected to `origin/main`; the initial portable pr
 
 - Brand direction is fixed; do not restart naming or concept exploration.
 - The user selected `deliverables/NAVIR_PC_Template_GreyWhite_A_Airy.png` as the PC page structural baseline on 2026-09-22. This selects the layout direction, not a finished branded design.
+- The user recalls receiving finished first and last NAVIR pages on the company computer. Their exact final files and approval status need to be reconciled with this clone before further page production.
 - Recent Illustrator helper scripts were modified on 2026-09-21. Their visual result still needs to be judged in the intended Adobe workflow before being treated as accepted.
 
 ## Key editable sources
@@ -56,18 +57,26 @@ Repository status: `main` is connected to `origin/main`; the initial portable pr
 
 ## Next action
 
-1. Refine structure A in a new versioned output, preserving the current A/B/C exports.
-2. Review the refinement at full size before treating it as an accepted branded page.
-3. Validate the latest Illustrator-generated sample visually in Adobe; script execution alone is not approval.
+1. Identify the finished first and last pages the user recalls, and compare them with the repository's A01/A07 QA screenshots.
+2. If the finished exports or editable sources are only on the company computer, transfer them into the repository through a normal commit and push without overwriting existing files.
+3. Then refine structure A in a new versioned output, preserving the current A/B/C exports and the recovered pages.
+4. Validate the latest Illustrator-generated sample visually in Adobe; script execution alone is not approval.
 
 ## Home review: 2026-09-22
 
 - Pulled `main` with `git pull --ff-only`; it was already current and the working tree was clean.
 - Reviewed the three full-size grey-white PC structure PNGs in `deliverables/`. A and C use the same section geometry; C uses a darker grey hierarchy. B reverses the main left/right composition. These remain unapproved structural options, not a final branded page.
-- The user subsequently chose A as the starting structure. B and C remain comparison options; no branded page has been approved.
+- The user subsequently chose A as the starting structure. B and C remain comparison options. The status of the separate finished A01/A07 pages requires verification.
 - Inspected the repository's `tmp/block_v04_A01_qa2.png` and `tmp/block_v03_A07_qa.png` as QA evidence only. Their placeholder product shapes and blue fields do not establish approval against the fixed NAVIR palette. The latest Illustrator workflow has not been run or verified on this computer.
 - Changed file: `HANDOFF.md` only. No design or website files were edited and no site was published.
-- Exact next action: refine the selected A structure in a new versioned output and visually validate it. Independently validate the latest Illustrator-generated sample in Adobe before acceptance.
+- Exact next action: reconcile the finished A01/A07 pages reported by the user before producing further pages. Then refine the selected A structure in a new versioned output and visually validate it.
+
+## Home clarification: 2026-09-22
+
+- The user's company-computer recollection establishes that the first and last pages may already be finished; do not recreate or dismiss them based only on the grey-white structure options.
+- This clone tracks `tmp/block_v04_A01_qa2.png` and `tmp/block_v03_A07_qa.png`, among earlier A01/A07 QA screenshots. No A01/A07 final PNG or PSD was found in the tracked repository files.
+- `build_navir_visual_sample_v01.jsx` and `audit_navir_visual_sample_v01.jsx` reference a company-computer path and Photoshop PSD files that are absent from this clone. The scripts and QA screenshots are evidence, but do not establish which files were handed to the user as final.
+- Changed file: `HANDOFF.md` only. No design files were altered and no site was published.
 
 ## Migration validation
 
